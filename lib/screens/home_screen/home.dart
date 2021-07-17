@@ -125,6 +125,16 @@ class _HomeState extends State<Home> {
                 Navigator.pop(context);
               },
             ),
+            ListTile(
+              title: Text('Categories',
+                  style: TextStyle(
+                    fontSize: 18.0,
+                  )
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
           ],
         ),
       ),
